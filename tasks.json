@@ -1,12 +1,203 @@
 {
-    "tasks": [
-      {
-        "nombre": "The Name of the Wind",
-        "fechaInicio": "22/04/5004",
-        "fechaFin": "11/88/4771",
-        "responsable": "also called The Kingkiller Chronicle",
-        "prioridad": "alta",
-        "id": 1
-      }
-    ]
-  }
+  "tasks": [
+    {
+      "estado": "completada",
+      "id": "1"
+    },
+    {
+      "id": "3e0a",
+      "nombre": "sa",
+      "fechaInicio": "2024-03-05",
+      "fechaFin": "2024-03-23",
+      "responsable": "jame",
+      "prioridad": "baja"
+    },
+    {
+      "id": "955d",
+      "nombre": "sasas",
+      "fechaInicio": "2024-03-12",
+      "fechaFin": "2024-03-22",
+      "responsable": "sasas",
+      "prioridad": "inmediata"
+    },
+    {
+      "id": "e99b",
+      "nombre": "sasas",
+      "fechaInicio": "2024-03-06",
+      "fechaFin": "2024-03-21",
+      "responsable": "sasas",
+      "prioridad": "media"
+    },
+    {
+      "id": "2e69",
+      "nombre": "",
+      "fechaInicio": "",
+      "fechaFin": "",
+      "responsable": "",
+      "prioridad": "empty"
+    },
+    {
+      "id": "0352",
+      "nombre": "",
+      "fechaInicio": "",
+      "fechaFin": "",
+      "responsable": "",
+      "prioridad": "empty"
+    },
+    {
+      "id": "0c1b",
+      "nombre": "",
+      "fechaInicio": "",
+      "fechaFin": "",
+      "responsable": "",
+      "prioridad": "empty"
+    },
+    {
+      "id": "fe10",
+      "nombre": "",
+      "fechaInicio": "",
+      "fechaFin": "",
+      "responsable": "",
+      "prioridad": "empty"
+    },
+    {
+      "id": "ca96",
+      "nombre": "",
+      "fechaInicio": "",
+      "fechaFin": "",
+      "responsable": "",
+      "prioridad": "empty"
+    },
+    {
+      "id": "f08f",
+      "nombre": "",
+      "fechaInicio": "",
+      "fechaFin": "",
+      "responsable": "",
+      "prioridad": "empty"
+    },
+    {
+      "id": "8b72",
+      "nombre": "",
+      "fechaInicio": "",
+      "fechaFin": "",
+      "responsable": "",
+      "prioridad": "empty"
+    },
+    {
+      "id": "d04c",
+      "nombre": "",
+      "fechaInicio": "",
+      "fechaFin": "",
+      "responsable": "",
+      "prioridad": "empty"
+    },
+    {
+      "id": "8a43",
+      "nombre": "",
+      "fechaInicio": "",
+      "fechaFin": "",
+      "responsable": "",
+      "prioridad": "empty"
+    },
+    {
+      "id": "648c",
+      "nombre": "",
+      "fechaInicio": "",
+      "fechaFin": "",
+      "responsable": "",
+      "prioridad": "empty"
+    },
+    {
+      "id": "dd68",
+      "nombre": "",
+      "fechaInicio": "",
+      "fechaFin": "",
+      "responsable": "",
+      "prioridad": "empty"
+    },
+    {
+      "id": "face",
+      "nombre": "",
+      "fechaInicio": "",
+      "fechaFin": "",
+      "responsable": "",
+      "prioridad": "empty"
+    },
+    {
+      "id": "db9e",
+      "nombre": "",
+      "fechaInicio": "",
+      "fechaFin": "",
+      "responsable": "",
+      "prioridad": "empty"
+    },
+    {
+      "id": "e939",
+      "nombre": "",
+      "fechaInicio": "",
+      "fechaFin": "",
+      "responsable": "",
+      "prioridad": "empty"
+    },
+    {
+      "estado": "completada",
+      "id": "58fb"
+    },
+    {
+      "estado": "completada",
+      "id": "9556"
+    },
+    {
+      "estado": "completada",
+      "id": "a943"
+    },
+    {
+      "estado": "completada",
+      "id": "ef94"
+    },
+    {
+      "estado": "completada",
+      "id": "003f"
+    },
+    {
+      "estado": "completada",
+      "id": "b066"
+    },
+    {
+      "estado": "completada",
+      "id": "f79d"
+    },
+    {
+      "estado": "completada",
+      "id": "ee66"
+    },
+    {
+      "nombre": "aaa",
+      "fechaInicio": "2024-03-14",
+      "fechaFin": "2024-03-30",
+      "responsable": "aaaa",
+      "prioridad": "alta",
+      "estado": "completada",
+      "id": "4579"
+    },
+    {
+      "nombre": "bobohpta",
+      "fechaInicio": "2024-03-06",
+      "fechaFin": "2024-03-09",
+      "responsable": "jame",
+      "prioridad": "inmediata",
+      "estado": "incompleta",
+      "id": "3b62"
+    },
+    {
+      "id": "38f9",
+      "nombre": "sa",
+      "fechaInicio": "2024-03-12",
+      "fechaFin": "2024-03-29",
+      "responsable": "sasas",
+      "prioridad": "baja",
+      "estado": "pendiente"
+    }
+  ]
+}
