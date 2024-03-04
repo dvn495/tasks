@@ -5,53 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
-    <script defer src="app.js"></script>
+    <script defer type="module" src="app.js"></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
     <title>Tasks</title>
 </head>
 <body>
     <header>
         <h1>Tasks</h1>
         <nav>
+            <box-icon name="rocket"></box-icon>
 
         </nav>
     </header>
     <main>
-        <section class="container-tasks">
-            <h2>Nueva tarea</h2>
-            <div class="container-task_name">
-                <h3>Nombre de la tarea</h3>
-                <input placeholder="ingresa el nombre">
-            </div>
-            <div class="container-task_dates">
-                <div class="dates-begin">
-                    <h3>Fecha Inicio</h3>
-                    <input type="date">
-                </div>
-                <div class="dates-end">
-                    <h3>Fecha Fin</h3>
-                    <input type="date">
-                </div>
-            </div>
-            <div class="container-task_responsable">
-                <h3>Responsable de la tarea</h3>
-                <input placeholder="nombre del responsable">
-            </div>
-            <div class="container-task_priority">
-                <h3>Nivel de prioridad</h3>
-                <select>
-                    <option value="empty">selecciona...</option>
-                    <option value="inmediata">Inmediata</option>
-                    <option value="alta">Alta</option>
-                    <option value="media">Media</option>
-                    <option value="baja">Baja</option>
-                </select>
-            </div>
-        </section>
-        <section id="pendingTask"class="container-pendingTask">
-
-        </section>
+        <task-list></task-list>
+        <div id="pendingTask" class="container-pendingTask"></div>
 
     </main>
-    
 </body>
 </html>
