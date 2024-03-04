@@ -39,6 +39,7 @@ export class taskList extends HTMLElement{
                         <option value="baja">Baja</option>
                     </select>
                 </div>
+                <br>
                 <input type="submit" value="añadir">
             </form>
        `

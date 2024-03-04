@@ -1,0 +1,40 @@
+{
+  "tasks": [
+    {
+      "nombre": "sa",
+      "fechaInicio": "2024-02-27",
+      "fechaFin": "2024-03-30",
+      "responsable": "sasas",
+      "prioridad": "media",
+      "estado": "completada",
+      "id": "05d7"
+    },
+    {
+      "nombre": "prueba 2",
+      "fechaInicio": "2024-03-14",
+      "fechaFin": "2024-03-23",
+      "responsable": "pepe",
+      "prioridad": "media",
+      "estado": "incompleta",
+      "id": "f845"
+    },
+    {
+      "id": "63e5",
+      "nombre": "aa",
+      "fechaInicio": "2024-03-06",
+      "fechaFin": "2024-03-23",
+      "responsable": "jame",
+      "prioridad": "alta",
+      "estado": "pendiente"
+    },
+    {
+      "id": "8c16",
+      "nombre": "sa",
+      "fechaInicio": "2024-03-13",
+      "fechaFin": "2024-03-22",
+      "responsable": "pepe",
+      "prioridad": "alta",
+      "estado": "pendiente"
+    }
+  ]
+}
