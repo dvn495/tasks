@@ -25,6 +25,44 @@ document.addEventListener('DOMContentLoaded', function() {
         .catch(error => {
             console.error('Error fetching tasks:', error);
         });
+        const taskForm = document.querySelector('task-list')
+        taskForm.addEventListener('submit', (e) => {
+            e.preventDefault()
+            console.log(e.target)
+            
+            const titleInput = bookForm.querySelector('#title').value
+            const authorInput = bookForm.querySelector('#author').value
+            const coverImageInput = bookForm.querySelector('#coverImage').value
+            const descInput = bookForm.querySelector('#description').value
+
+            fetch(`${bookURL}`, {
+                method: 'POST',
+                body: JSON.stringify({
+                  nombre: titleInput,
+                  fechaInicio: authorInput,
+                  fechaFin: coverImageInput,
+                  responsable: descInput,
+                  prioridad: priorityInput
+                }),
+                headers: {
+                  'Content-Type': 'application/json'
+                }
+              })
+            .then( response => response.json())
+            .then( book => {
+                    bookContainer.innerHTML += `
+                    <div id=${book.id}>
+                    <h2>${book.title}</h2>
+                    <h4>Author: ${book.author}</h4>
+                    <img src="${book.coverImage}" width="333" height="500">
+                    <p>${book.description}</p>
+                    <button data-id="${book.id}" id="edit-${book.id}" data-action="edit">Edit</button>
+                    <button data-id="${book.id}" id="delete-${book.id}" data-action="delete">Delete</button>
+                    </div>`
+            })
+       })
+       
+
     });
 
 

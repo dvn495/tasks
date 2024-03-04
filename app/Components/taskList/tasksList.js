@@ -12,25 +12,25 @@ export class taskList extends HTMLElement{
                 <h2>Nueva tarea</h2>
                 <div class="container-task_name">
                     <h3>Nombre de la tarea</h3>
-                    <input placeholder="ingresa el nombre">
+                    <input id="name" placeholder="ingresa el nombre">
                 </div>
                 <div class="container-task_dates">
                     <div class="dates-begin">
                         <h3>Fecha Inicio</h3>
-                        <input type="date">
+                        <input id="fechaInicio" type="date">
                     </div>
                     <div class="dates-end">
                         <h3>Fecha Fin</h3>
-                        <input type="date">
+                        <input id="fechaFin type="date">
                     </div>
                 </div>
                 <div class="container-task_responsable">
                     <h3>Responsable de la tarea</h3>
-                    <input placeholder="nombre del responsable">
+                    <input id="responsable" placeholder="nombre del responsable">
                 </div>
                 <div class="container-task_priority">
                     <h3>Nivel de prioridad</h3>
-                    <select>
+                    <select id="priority">
                         <option value="empty">selecciona...</option>
                         <option value="inmediata">Inmediata</option>
                         <option value="alta">Alta</option>
@@ -38,8 +38,10 @@ export class taskList extends HTMLElement{
                         <option value="baja">Baja</option>
                     </select>
                 </div>
+                <input type="submit" value="add task">
             </section>
        `
    }
  }
+ 
 customElements.define("task-list", taskList);
